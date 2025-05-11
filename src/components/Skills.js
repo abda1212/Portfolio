@@ -23,19 +23,19 @@ function Skills() {
         Skills
       </h3>
       <h3 className="absolute top-32 uppercase tracking-[2px] text-white text-xs">
-        Hover over a skill for my skill level 
+        Hover over/press a skill for my skill level 
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-3 gap-4 px-4">
-        <Skill directionLeft={false} imgUrl={reactimg} level ={65} />
-        <Skill directionLeft={true} imgUrl={javascript} level ={70} />
-        <Skill directionLeft={false} imgUrl={reactnative} level ={55}/>
-        <Skill directionLeft={true} imgUrl={netCore} level ={50} />
-        <Skill directionLeft={false} imgUrl={expressjs} level ={40}/>
-        <Skill directionLeft={true} imgUrl={node} level ={30}/>
+        <Skill directionLeft={false} imgUrl={reactimg} level ={90} />
+        <Skill directionLeft={true} imgUrl={javascript} level ={90} />
+        <Skill directionLeft={false} imgUrl={reactnative} level ={75}/>
+        <Skill directionLeft={true} imgUrl={netCore} level ={90} />
+        <Skill directionLeft={false} imgUrl={expressjs} level ={60}/>
+        <Skill directionLeft={true} imgUrl={node} level ={50}/>
         <Skill directionLeft={false} imgUrl={postgreSql} level ={60}/>
         <Skill directionLeft={true} imgUrl={sqlite} level ={55}/>
-        <Skill directionLeft={false} imgUrl={sqlServer} level ={45}/>
-        <Skill directionLeft={true} imgUrl={firebase} level ={60}/>
+        <Skill directionLeft={false} imgUrl={sqlServer} level ={55}/>
+        <Skill directionLeft={true} imgUrl={firebase} level ={65}/>
 
       </div>
     </motion.div>

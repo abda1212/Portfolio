@@ -5,23 +5,26 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 function App() {
   return (
-<div className="App bg-[rgb(12,13,23)]">
-  <Header/>
-  <section id="hero" className=" snap-start">
-  <Hero />
-  </section>
-  
-  <section id="about" className=" snap-center">
- <About/>
+<div className="App">
+  <Header />
+
+  <section id="hero" className="snap-start">
+    <Hero />
   </section>
 
-  <section id="skills" className=" snap-center">
-<Skills/>
+  <section id="about" className="snap-center bg-[rgb(12,13,23)]">
+    <About />
   </section>
-  <section id="projects" className=" snap-center">
- <Projects/>
+
+  <section id="skills" className="snap-center bg-[rgb(12,13,23)] mt-20 md:mt-32">
+    <Skills />
   </section>
-  </div>
+
+  <section id="projects" className="snap-center bg-[rgb(12,13,23)]">
+    <Projects />
+  </section>
+</div>
+
   );
 }
 
