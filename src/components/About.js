@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import profilImg from '../images/profil.png'; 
+
 
 export default function About() {
   return (
@@ -20,7 +22,7 @@ export default function About() {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="https://ostermancron.com/wp-content/uploads/2016/02/blank-profile-picture-973460_640-300x300.png"
+        src={profilImg}
         alt="Profile"
         className="w-20 h-20 sm:w-28 sm:h-28 md:w-40 md:h-40 rounded-full object-cover mt-16 sm:mt-12"
       />

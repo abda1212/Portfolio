@@ -38,7 +38,7 @@ function Projects() {
           description="An webapp that visualise amount of sales."
           image={datavisualiser}
           codeLink="https://github.com/user/portfolio-repo"
-          techStack={['React', 'CSS', 'Asp.Net', 'Rest api']}
+          techStack={['React', 'Tailwind CSS']}
         />
       </div>
     </motion.div>

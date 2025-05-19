@@ -24,7 +24,7 @@ function Header() {
 
 <SocialIcon url="https://www.linkedin.com/in/abdullahi-dayib-91109a250/ " fgColor='blue' bgColor='transparent' />
 
-<SocialIcon url="https://www.github.com" 
+<SocialIcon url="https://github.com/abda1212?tab=repositories" 
 bgColor='transparent'
 fgColor='blue'
  />
